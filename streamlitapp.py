@@ -7,12 +7,8 @@ from streamlit_folium import st_folium
 
 # 📦 예시 데이터: 실제 food_df로 교체 가능
 np.random.seed(42)
-food_df = pd.DataFrame({
-    "상권업종중분류명": np.random.choice(["한식", "중식", "치킨", "호프"], 100),
-    "상호명": [f"상호{i}" for i in range(100)],
-    "위도": np.random.uniform(37.54, 37.56, 100),
-    "경도": np.random.uniform(126.85, 126.87, 100),
-})
+
+food_df = pd.read_csv("food_df.csv")
 
 # 🧭 제목 및 사용자 입력
 st.title("📍 지도 클릭으로 상권 분석")
