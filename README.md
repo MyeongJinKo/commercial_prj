@@ -11,6 +11,13 @@
 1. 쉽게 배포가 가능한 streamlit을 사용하여 앱/웹으로 구현하였으며, 배포는 github cloud를 통해 무료 배포로 한다.
 2. 음식점 카테고리 선택창을 가독성 있게 구분하기 위해, 현재는 음식점 중분류명으로 구분한다.
 3. 중심점으로부터 원하는 반경을 m로 선택할 수 있다.
+<div align="center">
+<img src="https://github.com/MyeongJinKo/commercial_prj/blob/main/images/v2_1.png" width="500" height="400" alt="사용법1">
+<img src="https://github.com/MyeongJinKo/commercial_prj/blob/main/images/v2_2.png" width="500" height="400" alt="사용법2">
+<img src="https://github.com/MyeongJinKo/commercial_prj/blob/main/images/v2_3.png" width="500" height="400" alt="사용법3">
+<img src="https://github.com/MyeongJinKo/commercial_prj/blob/main/images/v2_4.png" width="500" height="400" alt="사용법4">
+</div>
+
 ----------
 ## 3. 향후 업데이트 방안
 ### 3-1. 검색 후 발견된 상점들의 주변 상권에 대한 정보
